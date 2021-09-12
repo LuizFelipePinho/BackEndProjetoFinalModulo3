@@ -1,11 +1,11 @@
 const mongoose = require("mongoose");
 
-function Conn(url, porta, banco) {
+function Conn(url, user, pass, banco) {
   // url de conexeção: mongodb://servidor:porta/nomedobanco
   mongoose
-    .connect(
-      `mongodb+srv://dbUser:123@cluster0.rytip.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`,
-      {
+    .connect(`${url}/${banco}`, {
+        user: user,
+        pass: pass,
         useNewUrlParser: true,
         useUnifiedTopology: true,
       }

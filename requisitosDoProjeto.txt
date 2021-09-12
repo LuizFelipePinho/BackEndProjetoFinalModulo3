@@ -40,3 +40,11 @@ Link da conexao do banco
 Link do HEROKU
 
 devem ser entregues os 3 links nos comentários
+
+
+
+//samerda vai pro atlas
+DB_URL='mongodb+srv://cluster0.rytip.mongodb.net'
+DB_USER='dbUser'
+DB_PASS='123'
+DB_DATA='myFirstDatabase'
