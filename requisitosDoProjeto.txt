@@ -1,0 +1,42 @@
+Criar uma API backend para gerenciar tarefas do dia a dia.
+
+ 10Estrutura da Entidade: Tarefas
+Título      => feito!
+Descrição   => feito!
+Prioridade (Alta, Média e Baixa)   => feito!
+Status (Fazer, Fazendo, Feito)    => feito!
+Prazo                           => feito!
+Data de criação                 => feito!
+
+
+
+
+Endpoints (3,7 pontos)
+[GET] Leitura de todas as tarefas (0,5 pontos)      => feito!
+
+[GET] Leitura de tarefas individuais (por ID) (0,6 pontos)   => feito!
+( validacao caso o id passado nao corresponda a algum id do banco ) => feito!
+
+
+[POST] Criação de tarefas (1 ponto)                  => feito!
+
+
+
+[PUT] Edição de tarefas por ID (1 ponto)       => feito!
+( fazer a validacao para caso o body da requisição venha vazio, nao deixar editar) => feito!
+
+[DELETE] Exclusão de tarefas por ID (0,6 pontos)   => feito!
+
+Requisitos (6,3 pontos)
+
+Validação de dados em todos os endpoints (1,2 pontos)
+Status Code corretos em todos os endpoints (1,2 pontos)
+200, 201, 400, 404, etc
+Persistência de Dados no MongoDB (1,5 pontos)Formatação do código utilizando o Prettier (0,6 pontos)Exportar os arquivos de requisição (0,5 pontos)Deploy do projeto no Heroku (0,6 pontos)Deploy do banco de dados na Cloud Atlas (0,7 pontos)
+ENTREGA:
+
+Link do GITHUB do projeto
+Link da conexao do banco
+Link do HEROKU
+
+devem ser entregues os 3 links nos comentários
