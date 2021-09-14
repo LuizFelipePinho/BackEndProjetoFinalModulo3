@@ -71,10 +71,10 @@ router.put("/update/:id", async (req, res) => {
 router.delete("/delete/:id", async (req, res) => {
   await Tarefa.deleteOne({ _id: req.params.id })
     .then(() => {
-      res.status(200).send("musica deletada com sucesso");
+      res.status(200).send("Tarefa deletada com sucesso");
     })
     .catch((err) => {
-      res.status(400).send("algo errado com a musica");
+      res.status(400).send("algo errado com a tarefa");
       console.log(err);
     });
 });
