@@ -9,7 +9,7 @@ const express = require("express");
 const cors = require('cors');
 
 const corsOptions = {
-  origin: 'https://backend-tarefas-blue.herokuapp.com/tarefas',
+  origin: 'http://localhost:3000',
   OptionSuccessStatus: 200,
 }
 
