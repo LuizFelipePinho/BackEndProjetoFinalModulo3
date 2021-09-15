@@ -5,11 +5,19 @@ if(process.env.NODE_ENV !== 'production'){
 
 }
 
-
 const express = require("express");
+const cors = require('cors');
+
+const corsOptions = {
+  origin: 'https://backend-tarefas-blue.herokuapp.com/tarefas',
+  OptionSuccessStatus: 200,
+}
+
+
 const Conn = require("./models/conexaodb");
 const app = express();
 app.use(express.json());
+app.use(cors(corsOptions));
 
 const Conexabd = require("./models/conexaodb");
 const db_url = process.env.DB_URL;
